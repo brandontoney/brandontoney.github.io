@@ -1,0 +1,222 @@
+body {
+	overflow-x: hidden;
+}
+
+
+/********************SECTIONS********************/
+
+#navbar {
+	background-color: #7c3096;
+	height: 100;
+}
+
+#header {
+    background-image: url(images/headerbg.png);
+	height: 600;
+}
+
+#why {
+	background-color: #9a3ead;
+	height: 800;
+    color: white;
+}
+
+#pricing {
+    background-image: url(images/overlay.png);
+	height: 600;
+}
+
+#moreInfo {
+	background-color: #9a3ead;
+	height: 200;
+}
+
+#footer {
+	background-color: #383838;
+	height: 120;
+	text-align: center;
+}
+
+
+
+
+
+/********************NAV BAR********************/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 50px;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+#logo {
+	margin-left: 300;
+	margin-top: 10;
+	font-size: 36;
+    font-family: 'Segoe UI';
+    font-style: oblique;
+}
+
+#links {
+	float: right;
+}
+
+#navgroup {
+	margin-right: 300;
+	margin-top: 20;
+}
+
+
+/********************EXAMPLES AND PRICING********************/
+
+h3 {
+	text-align: center;
+	padding-top: 40;
+}
+
+#example1 {
+	text-align: center;
+	padding-top: 80;
+	font-family: 'times new roman';
+	font-size: 16;
+}
+
+#example2 {
+	text-align: center;
+	padding-top: 10;
+	font-family: 'roboto';
+	font-size: 16;
+}
+
+#example3 {
+	text-align: center;
+	padding-top: 10;
+	font-family: monospace;
+	font-size: 16;
+}
+
+.container {
+	margin-left: 300;
+	margin-right: 300;
+}
+
+.col-sm {
+	margin-top: 100;
+	text-align: center;
+}
+
+figcaption {
+    color: white;
+    margin-top: 10;
+    font-size: 20;
+}
+
+#description {    
+    margin-top: 10;
+    font-size: 16;
+}
+
+/********************GET STARTED********************/
+
+#secondButton {
+	margin-top: 100 !important;
+}
+
+
+/********************FOOTER********************/
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+#social {
+	display: inline-block;
+	margin-top: 40;
+}
+
+#footer_links {
+	display: inline-block;
+	font-size: 12;
+	color: white;
+}
+
+#footer-note {
+	margin-top: 30;
+	color: white;
+}
+
+
+/********************BUTTONS********************/
+
+
+
+
+
+
+.button-row1 {
+	padding-top: 500;
+}
+
+.button-row2 {
+	padding-top: 80;
+}
+
+
+#price {
+    font-size: 30;
+    margin-top: 30;
+    margin-bottom: 30;
+}
+
+#plan {
+    margin-top: 20;
+}
+
+
+#button1 {
+    font-size: 20;
+    background-color: white;
+    color: #9a3ead;
+    border: none;
+    padding: 15 40;
+    margin-top: -50;
+}
+
+
+#button2 {
+    font-size: 20;
+    background-color: #9a3ead;
+    color: white;
+    border: none;
+    padding: 15 40;
+}
+
+#button3 {
+    font-size: 20;
+    background-color: white;
+    color: #9a3ead;
+    border: none;
+    padding: 15 40;
+    margin-top: -15;
+}
+

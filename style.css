@@ -1,0 +1,122 @@
+#navbar {
+    /*background-color: darkgray;*/
+    height: 100;
+}
+
+#header {
+    /*background-color: lightgray;*/
+    height: 200;
+}
+
+#portfolio {
+    /*background-color: darkgray;*/
+    height: 570;
+}
+
+#footer {
+    /*background-color: lightgray;*/
+    height: 60;
+    text-align: center;
+}
+
+
+
+
+/********************NAV BAR********************/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 50px;
+	text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+
+#logo {
+	margin-left: 300;
+	margin-top: 10;
+	font-size: 36;
+    font-family: 'Segoe UI';
+}
+
+#links {
+	float: right;
+}
+
+#navgroup {
+	margin-right: 300;
+	margin-top: 20;
+}
+
+
+
+
+/********************HEADER********************/
+
+
+h4 {
+    margin-left: 400;
+}
+
+#project-title {
+    text-align: center;
+}
+
+.container {
+    margin-top: 50;
+}
+
+
+/********************PORTFOLIO********************/
+
+.col-sm {
+    text-align: center;
+}
+
+#thumbnail {
+    display: block;
+    margin: auto;
+    margin-top: 30;
+}
+
+#description {
+    margin-left: 300;
+    margin-right: 300;
+    margin-top: 60;
+}
+
+
+/********************ABOUT ME********************/
+
+#about-me {
+    /*background-color: darkgray;*/
+    height: 570;
+    margin-left: 400;
+    margin-right: 400;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+#about-me-desc {
+    margin-top: 30;
+}
