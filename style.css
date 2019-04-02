@@ -10,7 +10,7 @@
 
 #portfolio {
     /*background-color: darkgray;*/
-    height: 570;
+    height: 500;
 }
 
 #footer {
@@ -18,7 +18,6 @@
     height: 60;
     text-align: center;
 }
-
 
 
 
@@ -77,6 +76,7 @@ h4 {
 
 #project-title {
     text-align: center;
+    margin-top: -100;
 }
 
 .container {
@@ -102,6 +102,12 @@ h4 {
     margin-top: 60;
 }
 
+#center-img {
+    display: block;
+    margin: auto;
+    margin-top: 50;
+}
+
 
 /********************ABOUT ME********************/
 
@@ -114,7 +120,7 @@ h4 {
 
 h3 {
     text-align: center;
-
+    margin-top: -30;
 }
 
 #about-me-desc {
